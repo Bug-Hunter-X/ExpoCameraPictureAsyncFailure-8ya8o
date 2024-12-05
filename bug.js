@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with custom camera controls.  The issue arises when attempting to access the camera's `takePictureAsync` function after switching between the front and rear cameras multiple times in quick succession.  The function might unexpectedly return an error or fail to capture an image, resulting in a blank image or an unhandled error.
